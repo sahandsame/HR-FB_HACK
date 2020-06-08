@@ -108,6 +108,10 @@ hr = """
 \x1b[31;1m  / ,< / __ `/ //_/\x1b[37;1m   \__ \/ __ \/ _ \/ /   / / 
 \x1b[31;1m / /| / /_/ / ,<   \x1b[37;1m  ___/ / / / /  __/ /___/ /  
 \x1b[31;1m/_/ |_\__,_/_/|_|  \x1b[37;1m /____/_/ /_/\___/_____/_/   
+
+version >> 1.0
+staff >> KaKShell
+
 """
 print(hr)
 CorrectUsername = "kakshell"
@@ -240,7 +244,8 @@ def option():
 		os.system('clear')
 		print logo
 		anime("<<<<<<<<PREPARE TO ♡●♡UPDATE TOOL >>>>>>")
-		anime("version kay to 1.0 a axer update a")
+		os.system('rm -rif KaKsheLL')
+                os.system('git clone https://github.com/wrong00/KaKsheLL ')
 		raw_input("press enter for back")
 		menu()
 	elif unikers =="0":
