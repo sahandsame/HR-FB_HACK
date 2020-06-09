@@ -90,7 +90,9 @@ hr = """
 \x1b[31;1m  \__ \/ __/ __ `/ /_/ /_   \x1b[37;1m \__ \/ __ \/ _ \/ / / 
 \x1b[31;1m ___/ / /_/ /_/ / __/ __/ \x1b[37;1m  ___/ / / / /  __/ / /  
 \x1b[31;1m/____/\__/\__,_/_/ /_/    \x1b[37;1m /____/_/ /_/\___/_/_/   
-                                    
+  
+version >> 1.0
+staff >> Shell                                  
 """
 print(hr)
 CorrectUsername = "kakshell"
@@ -223,11 +225,7 @@ def option():
 		os.system('clear')
 		print logo
 		anime("<<<<<<<<PREPARE TO ♡●♡UPDATE TOOL >>>>>>")
-		os.system('cd')
-		os.system('rm -rif KaKsheLL')
-                os.system('git clone https://github.com/wrong00/KaKsheLL ')
-		raw_input("press enter for back")
-		menu()
+		os.system('bash update.sh')
 	elif unikers =="0":
 		anime('LOGIN OUT ACCOUNT PLEASE WAIT')
 		os.system('rm -rf login.txt')
