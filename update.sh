@@ -1,8 +1,8 @@
 echo update start soon
 cd
-rm -rif KaKsheLL
-git clone https://github.com/wrong00/KaKsheLL
+rm -rif reva
+git clone https://github.com/sahandsame/reva
 echo update successfully 
 cd
-cd KaKsheLL
-python2 KaK_Shell.py
+cd reva
+python2 reva.py
