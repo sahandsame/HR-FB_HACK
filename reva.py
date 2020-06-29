@@ -1,5 +1,5 @@
 #!/ufr/bin/python2
-#coding=utf-8
+#coding=utf-8 slaw
 
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
@@ -534,3 +534,4 @@ def startgrab():
 
 if __name__ == '__main__':
 	login()
+	
