@@ -80,22 +80,22 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 \x1b[37;1m+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×++×+×+×+×+
-\x1b[31;1m@            STUDENT OF SHELL            @
+\x1b[31;1m@            ENJOIY THE HACK             @
 \x1b[37;1m+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×++×+×+×+×+
 """                                
 hr = """
-\x1b[31;1m   _____ __        ________ \x1b[37;1m  _____ __         ____
-\x1b[31;1m  / ___// /_____ _/ __/ __/ \x1b[37;1m / ___// /_  ___  / / /
-\x1b[31;1m  \__ \/ __/ __ `/ /_/ /_   \x1b[37;1m \__ \/ __ \/ _ \/ / / 
-\x1b[31;1m ___/ / /_/ /_/ / __/ __/ \x1b[37;1m  ___/ / / / /  __/ / /  
-\x1b[31;1m/____/\__/\__,_/_/ /_/    \x1b[37;1m /____/_/ /_/\___/_/_/   
+\x1b[31;1m   _____ __        ________ 
+\x1b[31;1m  / ___// /_____ _/ __/ __/ 
+\x1b[31;1m  \__ \/ __/ __ `/ /_/ /_    
+\x1b[31;1m ___/ / /_/ /_/ / __/ __/ 
+\x1b[31;1m/____/\__/\__,_/_/ /_/   
   
-version >> 1.0
+version >> 2.0
 REVA >> IS HERE                                
 """
 print(hr)
 CorrectUsername = "reva"
-CorrectPassword = "reva"
+CorrectPassword = "rasha"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\x1b[34;1m👨‍ \x1b[1;95mID \x1b[31;1m>>\x1b[1;91m")
@@ -214,7 +214,7 @@ def menu():
 	option()
 
 def option():
-	unikers = raw_input("\n\x1b[31;1mKaK@\x1b[37;1mSheLl>>\x1b[33;1m")
+	unikers = raw_input("\n\x1b[31;1mRe@\x1b[37;1mVa>>\x1b[33;1m")
 	if unikers =="":
 		print "\x1b[31;1m[!]tkaya boshaya ka ba batale je mahela"
 		option()
@@ -251,7 +251,7 @@ def graber():
 	startgrab()
 
 def startgrab():
-	peak = raw_input("\x1b[37;1mKaK@\x1b[31;1mSheLl>> ")
+	peak = raw_input("\x1b[37;1mRe@\x1b[31;1mVa>> ")
 	if peak=="":
 		print "\x1b[1;91mtkaya bosha yaka ba batale je mahela"
 		startgrab()
@@ -515,7 +515,7 @@ def startgrab():
 	p = ThreadPool(30)
 	p.map(main, id)
         anime(">>>>>>>>>$\x1b[31;1mRE\x1b[37;1mVA\x1b[0m$<<<<<<<<<<")
-	anime("\x1b[37;1mRecode by Baha" )#KaK SheLl
+	anime("\x1b[37;1mRecode by Baha" )
 	print '\x1b[32;1m Crack krdna ka kotay hat [√]^_^ '
 	print"\x1b[31;1mKoy HITS/\x1b[31;1mCHECKPOINT\x1b[37;1m: \x1b[32;1m"+str(len(oks))+"\x1b[31;1m/\x1b[33;1m"+str(len(cekpoint))
 	print ""
